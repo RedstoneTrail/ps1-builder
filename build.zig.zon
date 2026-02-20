@@ -1,0 +1,12 @@
+.{
+    .name = .ps1_builder,
+    .version = "0.0.0",
+    .fingerprint = 0x76dc98481c1b37d5, // Changing this has security and trust implications.
+    .minimum_zig_version = "0.15.1",
+    .dependencies = .{},
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+    },
+}
