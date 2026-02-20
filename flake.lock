@@ -37,7 +37,8 @@
     "root": {
       "inputs": {
         "flake-utils": "flake-utils",
-        "nixpkgs": "nixpkgs"
+        "nixpkgs": "nixpkgs",
+        "zig2nix": "zig2nix"
       }
     },
     "systems": {
@@ -52,6 +53,29 @@
       "original": {
         "owner": "nix-systems",
         "repo": "default",
+        "type": "github"
+      }
+    },
+    "zig2nix": {
+      "inputs": {
+        "flake-utils": [
+          "flake-utils"
+        ],
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1771554351,
+        "narHash": "sha256-bsnVDQPIq8Ed8CV04n0wEDK+ptMdAd1nAF3ddP5N1vw=",
+        "owner": "Cloudef",
+        "repo": "zig2nix",
+        "rev": "0f6d715e40c05eef038726dcd73bca4aa2bcdcea",
+        "type": "github"
+      },
+      "original": {
+        "owner": "Cloudef",
+        "repo": "zig2nix",
         "type": "github"
       }
     }
